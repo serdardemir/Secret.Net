@@ -2,5 +2,7 @@
 {
     public interface IProtector
     {
+        byte[] Encrypt(byte[] buffer);
+        byte[] Decrypt(byte[] buffer);
     }
 }
