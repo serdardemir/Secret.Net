@@ -3,7 +3,7 @@
 namespace SecretNet.Storage.Stores
 {
     public class RegistryStorageProvider : StorageProvider
-    {
+    { 
         protected override void InternalCreate(string key, object data)
         {
             throw new NotImplementedException();
